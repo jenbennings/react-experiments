@@ -23,13 +23,6 @@ module.exports = {
     publicPath: '/__build__/'
   },
 
-  module: {
-    loaders: [
-      { test: /\.json$/, loader: 'json-loader' },
-      { test: /\.js$/, loader: 'jsx-loader?harmony' }
-    ]
-  },
-
   plugins: [
     new webpack.optimize.CommonsChunkPlugin('shared.js')
   ]
