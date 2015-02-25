@@ -1,7 +1,7 @@
 var data = [
-  { name: 'Tab 1', description: 'In sed lacinia ante. Pellentesque vel malesuada metus. Nam hendrerit nulla nec.' },
-  { name: 'Tab 2', description: 'Aenean tincidunt egestas tellus et lobortis. Sed ornare efficitur turpis, et convallis.' },
-  { name: 'Tab 3', description: 'Aliquam aliquet posuere lectus, vitae facilisis nulla tempus at. Vestibulum aliquam ac.' }
+  { name: 'Witch Doctor', description: 'Drop dem beats mon' },
+  { name: 'Zeus', description: 'Absolute refresher kek' },
+  { name: 'Riki', description: 'Rat dota award 2016' }
 ];
 
 module.exports = data;
