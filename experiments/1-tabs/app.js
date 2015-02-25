@@ -16,14 +16,14 @@ var App = React.createClass({
 
   renderTabs () {
     var activeTabIndex = this.state.activeTabIndex;
-    return this.props.name.map((character, index) => {
+    return this.props.name.map((tab, index) => {
       return (
         <div
-          key={character.name}
+          key={tab.name}
           onClick={this.handleTabClick.bind(this, index)}
           style={index === activeTabIndex ? styles.activeTab : styles.tab}
           >
-          {character.name}
+          {tab.name}
         </div>
       );
     });
@@ -31,10 +31,10 @@ var App = React.createClass({
 
   renderPanel () {
     var activeTabIndex = this.state.activeTabIndex;
-    var character = this.props.name[activeTabIndex];
+    var tab = this.props.name[activeTabIndex];
     return (
       <div>
-        <p>{character.description}</p>
+        <p>{tab.description}</p>
       </div>
     );
   },
