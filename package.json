@@ -1,0 +1,21 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --inline --no-info --content-base experiments"
+  },
+  "author": "Ben Jennings <ben@coinbase.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jsx-loader": "0.12.2",
+    "react": "0.12.2",
+    "react-router": "0.11.6",
+    "webpack": "1.4.15",
+    "webpack-dev-server": "1.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "4.4.6",
+    "babel-loader": "4.0.0"
+  }
+}
